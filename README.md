@@ -78,3 +78,7 @@ We compared our implemented model to the given model using a variety of metrics.
 * Then simply run the main script.
 * Within the results folder, you will see a folder named **QS-EDGE-MEDIAN-UDIAT**, which contains all of the output images from each step as well as the final output.
 * You will also get a text file named **results.txt** in **QS-EDGE-MEDIAN-UDIAT**, which has a table with all of the image evaluation metrics, as well as their averages and standard deviation.
+
+# Notes
+* don't use run all command because it will run the get best threshold script and it takes long time and it's results already in **./results/QS-EDGE-MEDIAN-UDIAT/threshold accuracy.txt** .
+* we use histogram equalization for some images so if you need to use it in another image add its name in **isHistEq** dic 
