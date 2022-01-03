@@ -70,8 +70,8 @@ We compared our implemented model to the given model using a variety of metrics.
 
 # How can you use our code?
 
-* run all function in **(Helper Functions)** sction
-* in **Get best threshold (training)** or in **./results/QS-EDGE-MEDIAN-UDIAT/threshold accuracy.txt** section you can see the accuracy of all thresholds (code is commented)
+* run all functions in **(Helper Functions)** section
+* in **Get best threshold (training)** section or in **./results/QS-EDGE-MEDIAN-UDIAT/threshold accuracy.txt**  you can see the accuracy of all thresholds 
 * Check that the **GT** and **Input** folders are included within the data folder.
 * If not add them or change the paths of the variables *img_array & gt_array*.
 * main script is last script in main.ipynb **(Main script)**
